@@ -8,15 +8,13 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <Examples />
-      <Footer />
     </div>
   );
 }
 
 function Hero() {
   return (
-    <section className="flex flex-col items-center py-32 container mx-auto">
+    <section className="flex flex-col items-center py-60 container mx-auto">
       <div className="text-center flex flex-col items-center">
         <Button asChild variant="ghost">
           <a href="https://github.com/carmack-inc" target="_blank">
